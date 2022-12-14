@@ -1,0 +1,262 @@
+    1  ls /
+    2  ls /usr
+    3  pwd
+    4  cd /root
+    5  pwd
+    6  cd /home
+    7  mkdir test1
+    8  ls
+    9  mkdir test2/test3
+   10  cd/home
+   11  cd /home
+   12  mkdir -p test2/test3
+   13  ls test2
+   14  cd /home
+   15  touch test1/index.php
+   16  ls test1
+   17  cd /home/test1 && ls
+   18  cd /home/test1
+   19  cp index.php copy.php
+   20  ls
+   21  cd /home
+   22  cp -r test1 test4
+   23  ls
+   24  ls test4
+   25  cd /home
+   26  mv test2/test3 test3
+   27  ls
+   28  cd /home
+   29  rm test1_copy/*.php
+   30  cd /home
+   31  mv test4 test1_copy
+   32  ls
+   33  cd /home
+   34  ls test1
+   35  rm test1/copy.php
+   36  ls test1
+   37  cd /home
+   38  rm -r test3
+   39  ls
+   40  cd /home
+   41  rm test1_copy/*.php
+   42  ls test1_copy
+   43  cat README.md
+   44   cd /home
+   45  echo '# Hello World' > README.md
+   46  cat README.md
+   47  cd /home
+   48  echo 'Linux Practice' >> README.md
+   49  echo '-----------------' >> README.md
+   50  cat README.md
+   51  cd /home
+   52  vi README.md
+   53  vi README.md
+   54  cd /root
+   55  mkdir server_lesson && cd server_lesson
+   56  ls
+   57  yum update -y && yum -y install git
+   58  git version
+   59  git init
+   60  touch first.txt
+   61  ls
+   62  mkdir -p linux_practice1/public
+   63  ls
+   64  cd linux_practice1
+   65  ls
+   66  cd public
+   67  ls
+   68  touch index.php
+   69  ls
+   70  git commit -m "Add create a index.php"
+   71  git config --global user.email "ryuya.odani@gmail.com"
+   72  git config --global user.name "OdaniRyuya"
+   73  git commit -m "Add create a index.php"
+   74  cd ../
+   75  cd ../
+   76  ls
+   77  git status
+   78  git add .
+   79  git status
+   80  git commit -m "Add create a index.php"
+   81  git status
+   82  cd/linux_practicle1/public
+   83  cd/linux_practicce1/public
+   84* cd /
+   85  cd linux_practicce1/public
+   86  cd linux_practice1/public
+   87  ls
+   88  cp index.php index_bk.php
+   89  ls
+   90  ls
+   91  git status
+   92  git add . index_bk.php
+   93  git status
+   94  git commit -m "Add copy a index.php as index_bk.php" 
+   95  cd ../
+   96  ls
+   97  cp -r public tmp
+   98  ls
+   99  cd rmp
+  100  cd tmp
+  101  ls
+  102  cd ../
+  103  add .
+  104  git add .
+  105  git status
+  106  git commit -m "Add copy of public as tmp"
+  107  cd tmp
+  108  ls
+  109  ls
+  110  ls
+  111  rm index_bk.php
+  112  ls
+  113  git status
+  114  git add .
+  115  git status
+  116  git commit -m "Remove delete a index_bk.php"
+  117  git add.
+  118  git status
+  119  git add index_bk.php
+  120  git status
+  121  git add .
+  122  git add -A
+  123  git status
+  124  git commit -m "Remove delete a index_bk.php"
+  125  git status
+  126  cd ../../
+  127  touch README.md
+  128  ls
+  129  vi README.md
+  130  cat ãƒªt README.md
+  131  cat ãƒªt README.md
+  132  cat ãREADME.md
+  133  cat README.md
+  134  git status
+  135  git add .
+  136  git status
+  137  git commit -m "Add create and write README.md"
+  138  git branch
+  139  git remote add origin https://github.com/OdaniRyuya/-server_lesson.git
+  140  git remote -v
+  141  git push origin master
+  142  git push origin master
+  143  ls
+  144  mkdir linux_practice2
+  145  ls
+  146  cd linux_practice2
+  147  mkdir documents
+  148  touch gizumo{01..50}.md
+  149  ls
+  150  git status
+  151  git add .
+  152  git status
+  153  git commit -m "Add create file gizumo{01..50}.md"
+  154  ls
+  155  mkdir trash
+  156  ls
+  157  mv gizumo{20..29}.md trash/.
+  158  ls
+  159  cd trash
+  160  ls
+  161  cd ../
+  162  ls
+  163  touch .gitignore
+  164  ls
+  165  ls -A
+  166  vi .gitignore
+  167  git status
+  168  vi .gitignore
+  169  vi .gitignore
+  170  git status
+  171  git status
+  172  ls
+  173  cd trasg
+  174  cd trash
+  175  cd trash
+  176  touch gizumo{20..29}.md
+  177  ls
+  178  cd ../
+  179  vi .gitignore
+  180  ls
+  181  cd trash
+  182  ls
+  183  git status
+  184  ls
+  185  git status
+  186  cd ../
+  187  ls
+  188  ls -A
+  189  git log
+  190  git reset --hard 8ddebda0464c361f44ae9ab640bf79344148d627
+  191  ls
+  192  cd trash
+  193  git status
+  194  ls -A
+  195  git log
+  196  ls -A
+  197  cd ../
+  198  ls
+  199  remove .gitignore
+  200  ls -A
+  201  rm .gitignore
+  202  ls -A
+  203  git status
+  204  cd trasg
+  205  cd trash
+  206  ls
+  207  cd ../
+  208* 
+  209  cd r trash
+  210  cd -r trash
+  211  rm -r trash
+  212  ls
+  213  rm -r trash
+  214  ls
+  215  gilog
+  216  git log
+  217  git status
+  218  mkdir trash
+  219  ls
+  220  mv gizu
+  221  mv gizumo{20â€¦40}.md trash/.
+  222  mv gizumo{20â0..40}.md trash/.
+  223  mv gizumo{20..40}.md trash/.
+  224  ls
+  225  cd trash
+  226  ls
+  227  cd ../
+  228  git status
+  229  ls
+  230  cd trash
+  231  ls
+  232  cd ../
+  233  git add .
+  234  git add -A
+  235  git commit -m "Move Moved gizumo[20..40].md to a trash"
+  236  git status
+  237  ls
+  238  cd trash
+  239  ls
+  240  cd ../
+  241  touch .gitignore
+  242  ls -A
+  243  git status
+  244  git add .gitignore
+  245  git status
+  246  git commit -m "Add .gitignore created"
+  247  ls
+  248  ls -A
+  249  vi .gitignore
+  250  git status
+  251  cd trash
+  252  ls
+  253  cd ../
+  254  git sttua
+  255  git status
+  256  git add .gitignore
+  257  git commit -m "write gizumo[20-29].md in the .gitignore"
+  258  git status
+  259  history 300
+  260  touch exec_command.log
+  261  ls
+  262  history 300 >> exec_command.log
